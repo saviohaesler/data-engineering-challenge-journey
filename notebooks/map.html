@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7713d7c61ec65c58fc7cd6d018bb0a49 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7713d7c61ec65c58fc7cd6d018bb0a49" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7713d7c61ec65c58fc7cd6d018bb0a49 = L.map(
+                "map_7713d7c61ec65c58fc7cd6d018bb0a49",
+                {
+                    center: [46.65489028507258, 7.873022554584912],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c1932406d858ff9c4528f3d49c9d8c18 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c1932406d858ff9c4528f3d49c9d8c18.addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+            var marker_01e1441b78d7f7fe1bd9a8f36f694e5b = L.marker(
+                [46.65400333560591, 7.87383784713366],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_c12bfc9bb45844f8a23a97c1330af68c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_648ac7417cc1ee98817daa0ae8ac58a8 = $(`<div id="html_648ac7417cc1ee98817daa0ae8ac58a8" style="width: 100.0%; height: 100.0%;">Altitude Change: 1.78271484375</div>`)[0];
+                popup_c12bfc9bb45844f8a23a97c1330af68c.setContent(html_648ac7417cc1ee98817daa0ae8ac58a8);
+            
+        
+
+        marker_01e1441b78d7f7fe1bd9a8f36f694e5b.bindPopup(popup_c12bfc9bb45844f8a23a97c1330af68c)
+        ;
+
+        
+    
+    
+            var marker_d7214bf129c79509e1042c6974608e50 = L.marker(
+                [46.654231817388414, 7.873970706807959],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_0c9cad7d535c5d7a2836eef2631e8400 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad98a03e46a4d0728fd90be0afdda532 = $(`<div id="html_ad98a03e46a4d0728fd90be0afdda532" style="width: 100.0%; height: 100.0%;">Altitude Change: 1.9423828125</div>`)[0];
+                popup_0c9cad7d535c5d7a2836eef2631e8400.setContent(html_ad98a03e46a4d0728fd90be0afdda532);
+            
+        
+
+        marker_d7214bf129c79509e1042c6974608e50.bindPopup(popup_0c9cad7d535c5d7a2836eef2631e8400)
+        ;
+
+        
+    
+    
+            var marker_c813fabd4f0835162ff740f97af68845 = L.marker(
+                [46.65455985360713, 7.873858911973599],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_85d498990c203d5649d0bef1f8b71858 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae6714047642923fd0144bf0168a00dc = $(`<div id="html_ae6714047642923fd0144bf0168a00dc" style="width: 100.0%; height: 100.0%;">Altitude Change: 1.5107421875</div>`)[0];
+                popup_85d498990c203d5649d0bef1f8b71858.setContent(html_ae6714047642923fd0144bf0168a00dc);
+            
+        
+
+        marker_c813fabd4f0835162ff740f97af68845.bindPopup(popup_85d498990c203d5649d0bef1f8b71858)
+        ;
+
+        
+    
+    
+            var marker_8f96c16ec95b4c146aa79227ac0a0100 = L.marker(
+                [46.65492900068599, 7.8736650198660145],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_5a2ead4ff9ee98503f861398dc6bc335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_350438270518fea17382c7d85204e118 = $(`<div id="html_350438270518fea17382c7d85204e118" style="width: 100.0%; height: 100.0%;">Altitude Change: 0.7548828125</div>`)[0];
+                popup_5a2ead4ff9ee98503f861398dc6bc335.setContent(html_350438270518fea17382c7d85204e118);
+            
+        
+
+        marker_8f96c16ec95b4c146aa79227ac0a0100.bindPopup(popup_5a2ead4ff9ee98503f861398dc6bc335)
+        ;
+
+        
+    
+    
+            var marker_c2427ddc0b60ee671497bdd3613410b5 = L.marker(
+                [46.65522736891566, 7.87354503750548],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_5e976611223301cdddf44afc2a26830f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0ba1c574fe3778906d71a967d13b04b = $(`<div id="html_d0ba1c574fe3778906d71a967d13b04b" style="width: 100.0%; height: 100.0%;">Altitude Change: 1.93896484375</div>`)[0];
+                popup_5e976611223301cdddf44afc2a26830f.setContent(html_d0ba1c574fe3778906d71a967d13b04b);
+            
+        
+
+        marker_c2427ddc0b60ee671497bdd3613410b5.bindPopup(popup_5e976611223301cdddf44afc2a26830f)
+        ;
+
+        
+    
+    
+            var marker_219021ae3fec9341013b68e9caf41747 = L.marker(
+                [46.6555052650942, 7.873512642154449],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_c50764865e743ae4b73e82917990f1a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a500d73d5f05c228f72974c1a27a13b7 = $(`<div id="html_a500d73d5f05c228f72974c1a27a13b7" style="width: 100.0%; height: 100.0%;">Altitude Change: 2.177734375</div>`)[0];
+                popup_c50764865e743ae4b73e82917990f1a9.setContent(html_a500d73d5f05c228f72974c1a27a13b7);
+            
+        
+
+        marker_219021ae3fec9341013b68e9caf41747.bindPopup(popup_c50764865e743ae4b73e82917990f1a9)
+        ;
+
+        
+    
+    
+            var marker_ba39cbeaca7a06779300d725afd5e0ee = L.marker(
+                [46.65571314699889, 7.873077303453392],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_26f6bb97ed11748d5b748f9408ba0881 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a1704fe8124a3fe26c59f036920b07a = $(`<div id="html_4a1704fe8124a3fe26c59f036920b07a" style="width: 100.0%; height: 100.0%;">Altitude Change: 1.54345703125</div>`)[0];
+                popup_26f6bb97ed11748d5b748f9408ba0881.setContent(html_4a1704fe8124a3fe26c59f036920b07a);
+            
+        
+
+        marker_ba39cbeaca7a06779300d725afd5e0ee.bindPopup(popup_26f6bb97ed11748d5b748f9408ba0881)
+        ;
+
+        
+    
+    
+            var marker_7e149afacfec90d1e4c0b016383f94cb = L.marker(
+                [46.65562236994982, 7.8725598133291275],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_660d774c0ee25e065b10177b9d3e3e66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_283f61a07e214a049d186b0f46ff92bc = $(`<div id="html_283f61a07e214a049d186b0f46ff92bc" style="width: 100.0%; height: 100.0%;">Altitude Change: 2.6298828125</div>`)[0];
+                popup_660d774c0ee25e065b10177b9d3e3e66.setContent(html_283f61a07e214a049d186b0f46ff92bc);
+            
+        
+
+        marker_7e149afacfec90d1e4c0b016383f94cb.bindPopup(popup_660d774c0ee25e065b10177b9d3e3e66)
+        ;
+
+        
+    
+    
+            var marker_f183a853b3daf9ef4e191b0386c99f91 = L.marker(
+                [46.655668412519084, 7.871994705235934],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_d8fa327c42eac251e54b98126ab2ff20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f64d277dd4886f94a730577886761fbb = $(`<div id="html_f64d277dd4886f94a730577886761fbb" style="width: 100.0%; height: 100.0%;">Altitude Change: 1.40185546875</div>`)[0];
+                popup_d8fa327c42eac251e54b98126ab2ff20.setContent(html_f64d277dd4886f94a730577886761fbb);
+            
+        
+
+        marker_f183a853b3daf9ef4e191b0386c99f91.bindPopup(popup_d8fa327c42eac251e54b98126ab2ff20)
+        ;
+
+        
+    
+    
+            var marker_8f962641f069615353a03c3c408915ac = L.marker(
+                [46.65540953854446, 7.871961392418624],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_6ab7edf0a82802aee9ce1280064aee76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_babec6eea27ea304702f8b6635622d65 = $(`<div id="html_babec6eea27ea304702f8b6635622d65" style="width: 100.0%; height: 100.0%;">Altitude Change: 1.2158203125</div>`)[0];
+                popup_6ab7edf0a82802aee9ce1280064aee76.setContent(html_babec6eea27ea304702f8b6635622d65);
+            
+        
+
+        marker_8f962641f069615353a03c3c408915ac.bindPopup(popup_6ab7edf0a82802aee9ce1280064aee76)
+        ;
+
+        
+    
+    
+            var marker_0fabdadde6b720beefe9521e9b1d2bf4 = L.marker(
+                [46.6551150110596, 7.87230349838986],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_ba493609d92f78f9212b35f8f9ad7707 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c80f9f40b2fcbe4e9e8b5162c2a39cb = $(`<div id="html_4c80f9f40b2fcbe4e9e8b5162c2a39cb" style="width: 100.0%; height: 100.0%;">Altitude Change: 1.2021484375</div>`)[0];
+                popup_ba493609d92f78f9212b35f8f9ad7707.setContent(html_4c80f9f40b2fcbe4e9e8b5162c2a39cb);
+            
+        
+
+        marker_0fabdadde6b720beefe9521e9b1d2bf4.bindPopup(popup_ba493609d92f78f9212b35f8f9ad7707)
+        ;
+
+        
+    
+    
+            var marker_e1ce0d3eb3f2f9fb6de645fdf34ebdcd = L.marker(
+                [46.65477481407137, 7.872708342030773],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_7c79f3bb7fd878ddb1a4bc87c01824a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f66c0e59685e115f34daedc384b5676 = $(`<div id="html_6f66c0e59685e115f34daedc384b5676" style="width: 100.0%; height: 100.0%;">Altitude Change: 1.2373046875</div>`)[0];
+                popup_7c79f3bb7fd878ddb1a4bc87c01824a7.setContent(html_6f66c0e59685e115f34daedc384b5676);
+            
+        
+
+        marker_e1ce0d3eb3f2f9fb6de645fdf34ebdcd.bindPopup(popup_7c79f3bb7fd878ddb1a4bc87c01824a7)
+        ;
+
+        
+    
+    
+            var marker_00b18e1e1c0a552847fe92a0f421fd7b = L.marker(
+                [46.65440368776799, 7.872524854026688],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_6ac31152c5a3ad52f79af523d579794a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37d540dac6002f34baa9b6fee1fe9679 = $(`<div id="html_37d540dac6002f34baa9b6fee1fe9679" style="width: 100.0%; height: 100.0%;">Altitude Change: 3.279296875</div>`)[0];
+                popup_6ac31152c5a3ad52f79af523d579794a.setContent(html_37d540dac6002f34baa9b6fee1fe9679);
+            
+        
+
+        marker_00b18e1e1c0a552847fe92a0f421fd7b.bindPopup(popup_6ac31152c5a3ad52f79af523d579794a)
+        ;
+
+        
+    
+    
+            var marker_6e3567bf239ea2fd96de9a387e549bc8 = L.marker(
+                [46.65410525872771, 7.8728944091394055],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_8b2e9093a1b02845dc8e55319d34a21b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad6ad302d69b861c9c408bf107019a31 = $(`<div id="html_ad6ad302d69b861c9c408bf107019a31" style="width: 100.0%; height: 100.0%;">Altitude Change: 2.77197265625</div>`)[0];
+                popup_8b2e9093a1b02845dc8e55319d34a21b.setContent(html_ad6ad302d69b861c9c408bf107019a31);
+            
+        
+
+        marker_6e3567bf239ea2fd96de9a387e549bc8.bindPopup(popup_8b2e9093a1b02845dc8e55319d34a21b)
+        ;
+
+        
+    
+    
+            var marker_cf2b646af5b2d8d31dbf034d67de1d48 = L.marker(
+                [46.65408539515245, 7.87292383530871],
+                {}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+    
+        var popup_ca98adecc76851b8999da98ca3616cba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5af358e9aa4ac6e638bbc1dddf9d3767 = $(`<div id="html_5af358e9aa4ac6e638bbc1dddf9d3767" style="width: 100.0%; height: 100.0%;">Altitude Change: -0.0</div>`)[0];
+                popup_ca98adecc76851b8999da98ca3616cba.setContent(html_5af358e9aa4ac6e638bbc1dddf9d3767);
+            
+        
+
+        marker_cf2b646af5b2d8d31dbf034d67de1d48.bindPopup(popup_ca98adecc76851b8999da98ca3616cba)
+        ;
+
+        
+    
+    
+            var poly_line_ed5c18e3f9de798f00ff6c65f166caa9 = L.polyline(
+                [[46.65400333560591, 7.87383784713366], [46.654231817388414, 7.873970706807959], [46.65455985360713, 7.873858911973599], [46.65492900068599, 7.8736650198660145], [46.65522736891566, 7.87354503750548], [46.6555052650942, 7.873512642154449], [46.65571314699889, 7.873077303453392], [46.65562236994982, 7.8725598133291275], [46.655668412519084, 7.871994705235934], [46.65540953854446, 7.871961392418624], [46.6551150110596, 7.87230349838986], [46.65477481407137, 7.872708342030773], [46.65440368776799, 7.872524854026688], [46.65410525872771, 7.8728944091394055], [46.65408539515245, 7.87292383530871]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_7713d7c61ec65c58fc7cd6d018bb0a49);
+        
+</script>
+</html>
